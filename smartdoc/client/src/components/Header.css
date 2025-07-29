@@ -1,0 +1,42 @@
+.header {
+  height: 60px;
+  background-color: #1e1e2f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; /* Move title left, user info right */
+  padding: 5px 20px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+.header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #2d2d40;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.username {
+  font-size: 14px;
+  color: #fff;
+}
+
+.logout-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.logout-btn:hover {
+  color: #f87171;
+}

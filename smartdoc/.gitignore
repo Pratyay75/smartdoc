@@ -1,0 +1,34 @@
+# ===========================
+# Node.js dependencies
+client/node_modules/
+client/build/
+
+# If React build is moved inside server/frontend
+server/frontend/
+!server/frontend/index.html
+!server/frontend/static/
+
+# Python virtualenv & cache
+server/venv/
+__pycache__/
+*.pyc
+
+# Editor settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Environment files
+.env
+server/.env
+
+# Logs & local DB
+*.log
+*.sqlite
+*.db
+
+# AI/JSON/Cache data
+*.json
